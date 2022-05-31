@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.WindowGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="6" left="6" bottom="6" right="6"/>
+    <constraints>
+      <xy x="20" y="20" width="1038" height="527"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="72cba" class="javax.swing.JButton" binding="buttonRandom1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5458433"/>
+          <enabled value="false"/>
+          <font name="Bookman Old Style" style="2"/>
+          <icon value="Buttons/ListenerRandomButton1.java"/>
+          <text value="Random(1 - 10)"/>
+        </properties>
+      </component>
+      <component id="a34ea" class="javax.swing.JButton" binding="buttonRandom3">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5458433"/>
+          <enabled value="false"/>
+          <font name="Bookman Old Style" style="2"/>
+          <icon value="Buttons/ListenerRandomButton3.java"/>
+          <text value="Random(1 - 500)"/>
+        </properties>
+      </component>
+      <component id="21541" class="javax.swing.JButton" binding="buttonInsertionSort">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3355393"/>
+          <enabled value="false"/>
+          <font name="Bookman Old Style" style="2"/>
+          <icon value="Buttons/ListenerInsertionSortButton.java"/>
+          <text value="Insertion Sort"/>
+        </properties>
+      </component>
+      <component id="7215e" class="javax.swing.JButton" binding="buttonBinaryInsertionSort">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3355393"/>
+          <enabled value="false"/>
+          <font name="Bookman Old Style" style="2"/>
+          <icon value="Buttons/ListenerBinaryInsertionSortButton.java"/>
+          <text value="Binary Insertion Sort"/>
+        </properties>
+      </component>
+      <component id="42f5d" class="javax.swing.JButton" binding="buttonRandom2">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5458433"/>
+          <enabled value="false"/>
+          <font name="Bookman Old Style" style="2"/>
+          <icon value="Buttons/ListenerRandomButton2.java"/>
+          <text value="Random(1 - 100)"/>
+        </properties>
+      </component>
+      <scrollpane id="8eb84">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="900" height="100"/>
+            <preferred-size width="900" height="100"/>
+            <maximum-size width="1090" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3a06c" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="2e58f" binding="graphPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <vspacer id="b7f0b">
+            <constraints border-constraint="Center"/>
+          </vspacer>
+        </children>
+      </grid>
+      <hspacer id="dbc">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="6cef0" class="javax.swing.JRadioButton" binding="radioButton2" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5458433"/>
+          <enabled value="true"/>
+          <font name="Bookman Old Style" style="2"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <selected value="false"/>
+          <text value="Binary Insertion"/>
+        </properties>
+      </component>
+      <component id="ff9cc" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3355393"/>
+          <enabled value="false"/>
+          <font name="Bookman Old Style" style="2"/>
+          <icon value="Buttons/ListenerButton1.java"/>
+          <text value="Sort"/>
+        </properties>
+      </component>
+      <component id="7d1e0" class="javax.swing.JRadioButton" binding="radioButton1" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5458433"/>
+          <foreground color="-16777216"/>
+          <selected value="true"/>
+          <text value="Insertion"/>
+        </properties>
+      </component>
+      <component id="1265" class="javax.swing.JRadioButton" binding="firstVariantButtonsRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="First variant buttons "/>
+        </properties>
+      </component>
+      <component id="a3aa2" class="javax.swing.JRadioButton" binding="secondVariantButtonsRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Second variant buttons "/>
+        </properties>
+      </component>
+      <component id="cfe49" class="javax.swing.JButton" binding="buttonPerformanceTest">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3355393"/>
+          <enabled value="false"/>
+          <font name="Bookman Old Style" style="2"/>
+          <icon value="Buttons/ListenerPerformanceTestButton.java"/>
+          <text value="Performance test"/>
+        </properties>
+      </component>
+      <vspacer id="d8072">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
